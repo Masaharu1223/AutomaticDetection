@@ -1,8 +1,8 @@
 # car-vision 🚗
 
-**MacBook Pro M5 + iPhone（Continuity Camera）でリアルタイム車載物体検出**
+**MacBook Pro M5 RAM 24GB+ iPhone（Continuity Camera）でリアルタイム物体検出機能を実装しました**
 
-YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追跡を組み合わせた車載リアルタイム物体検出システム。
+YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追跡を組み合わせた車載リアルタイム物体検出システムです。
 
 ---
 
@@ -27,7 +27,7 @@ YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追
 | 機器 | 仕様 |
 |---|---|
 | MacBook Pro | M5 / 24GB RAM |
-| カメラ | iPhone（Continuity Camera）または Logicool C922 |
+| カメラ | iPhone（Continuity Camera） |
 | 接続 | USB または Wi-Fi（Continuity Camera） |
 
 ---
@@ -79,7 +79,7 @@ python quick_demo.py --model yolov8m.pt   # 高精度
 python quick_demo.py --conf 0.65
 ```
 
-`q` キーで終了。
+`control + C` キーで終了。
 
 ### カメラインデックスの確認
 
