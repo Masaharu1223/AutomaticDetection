@@ -2,7 +2,9 @@
 
 **MacBook Pro M5 RAM 24GB+ iPhone（Continuity Camera）でリアルタイム物体検出機能を実装しました**
 
-YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追跡を組み合わせた車載リアルタイム物体検出システムです。
+YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追跡を組み合わせたリアルタイム物体検出システムのプロトタイプです。
+Claude Code + Codexを用いて壁打ちからテスト・デプロイまで僅か10分程度で実装いたしました。
+
 
 ---
 
@@ -40,7 +42,7 @@ YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追
 - Python 3.12.7（[pyenv](https://github.com/pyenv/pyenv) 推奨）
 
 > **pyenv を使う場合の注意点**：Python ビルド前に `xz` を先にインストールしてください。
-> `xz` なしでビルドすると `_lzma` モジュールが欠落し `torchvision` が動作しません。
+> `xz` なしでビルドすると `_lzma` モジュールが欠落し `torchvision` が動作しないです。
 
 ```bash
 brew install xz
