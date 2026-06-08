@@ -1,0 +1,6 @@
+# 車載リアルタイム物体検出プロジェクト 依存ライブラリ
+# Python 3.12.7 (pyenv local) で動作確認
+
+ultralytics>=8.4.0      # YOLOv8 + CoreML export + ByteTrack 同梱
+opencv-python>=4.12.0   # カメラ入力・描画・表示
+pyyaml>=6.0             # config.yaml パース

@@ -1,0 +1,27 @@
+# モデルファイル（大きすぎるため git 管理対象外）
+models/*.mlpackage
+models/*.pt
+*.pt
+*.mlpackage
+
+# ログ・出力
+logs/*.log
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# pyenv
+.python-version
+
+# macOS
+.DS_Store
