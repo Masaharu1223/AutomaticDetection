@@ -110,7 +110,7 @@ for i in range(5):
 
 ---
 
-## 検出クラス（COCO）
+## 検出する物体
 
 `person` / `bicycle` / `car` / `motorcycle` / `bus` / `truck` / `traffic light` / `stop sign`
 
