@@ -12,7 +12,8 @@
 
 ## デモ
 
-> *(デモ GIF を撮影後にここへ掲載)*
+<img width="600" height="301" alt="DetectionDemo_600p" src="https://github.com/user-attachments/assets/28d1ada6-afc1-4cdb-a027-d609c15fafe0" />
+
 
 ---
 
