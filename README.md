@@ -1,6 +1,7 @@
 # Summary
 
-**MacBook Pro M5 RAM 24GB+ iPhone（Continuity Camera）でリアルタイム物体検出機能を実装しました**
+**MacBook Pro M5 RAM 24GB+ iPhone（Continuity Camera）でリアルタイム物体検出機能を実装しました。**
+
 データサイエンスが流行った数年前に授業で実装したことがある検知システムをClaude Code + Codexで実装したらどれくらいで、どのくらいの検知精度できるのか。
 そんな疑問を抱き、実装してみました。
 本PJでは、YOLOv8 を Apple Neural Engine（Core ML）向けに最適化し、ByteTrack 追跡を組み合わせたリアルタイム物体検出システムの**プロトタイプ**です。
