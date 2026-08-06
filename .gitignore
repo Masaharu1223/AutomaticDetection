@@ -14,6 +14,8 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+.mypy_cache/
+.ruff_cache/
 
 # 仮想環境
 .venv/
